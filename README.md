@@ -11,4 +11,4 @@ My BSC Computer Science final project - Android Studio & Firebase based social c
 
 Using java, xml, firebase database & storage.
 
-![alt text](https://github.com/[IFTra9]/[Fun-Un-App]/blob/[master]/mainlogin.jpeg?raw=true)
+https://github.com/[IFTra9]/[Fun-Un-App]/blob/[master]/mainlogin.jpeg?raw=true
