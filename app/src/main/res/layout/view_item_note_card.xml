@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@color/colorPrimary"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/tv_note_item_title_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|clip_vertical|center_horizontal"
+            android:layout_margin="7dp"
+            android:backgroundTint="@color/colorLight"
+            android:clickable="true"
+            android:editable="false"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:inputType="none"
+            android:textColor="@color/colorLight"
+            android:textColorLink="@color/colorLight"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tv_item_updated__username"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center|clip_vertical|center_horizontal"
+            android:layout_margin="7dp"
+            android:backgroundTint="@color/colorLight"
+            android:clickable="false"
+            android:editable="false"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:inputType="none"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:textSize="14sp"
+            android:windowSoftInputMode="stateHidden|adjustResize|adjustPan" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_note_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight=".1"
+                android:padding="2dp"
+                app:srcCompat="@drawable/ic_edit_button" />
+
+            <ImageView
+                android:id="@+id/iv_note_remove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight=".1"
+                android:padding="2dp"
+                app:srcCompat="@drawable/ic_remove_button" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

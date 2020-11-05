@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f1eded"
+    tools:context=".Fragment.GuestsFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/tv_search_guest_text"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:text="Search Guest "
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLight"
+                    android:textSize="22sp"
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/colorLight"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/search_view"
+                            android:layout_width="280dp"
+                            android:layout_height="40dp"
+                            android:layout_weight=".3"
+                            android:hint="@string/invitebyUsername"
+                            android:textColor="#000000"
+                            android:textColorLink="#000000"
+                            android:backgroundTint="#000000"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_search_friend"
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".1"
+                            android:gravity="center_vertical"
+                            android:src="@drawable/icon_search_friend" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tv_guests_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:text="FUN-UN Guests List"
+                    android:textColor="@color/colorLight"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/card_view_guests_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:background="#f1eded"
+                    android:paddingTop="5dp"
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+</FrameLayout>

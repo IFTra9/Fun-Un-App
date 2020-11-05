@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardBackgroundColor="#232925"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="12dp"
+    android:elevation="12dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/colorLight"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:text="FUNUN Note"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_edit_note_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/colorLight"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_edit_note_desc"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/colorLight"
+            android:hint="Description"
+            android:inputType="textMultiLine|textPersonName|text"
+            android:paddingTop="5dp"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btn_edit_note_save"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:layout_weight=".1"
+                android:background="@color/colorGreen"
+                android:text="Save"
+                android:textColor="@color/colorLight"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_edit_note_cancel"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:layout_weight=".1"
+                android:background="@color/colorGreen"
+                android:text="Cancel"
+                android:textColor="@color/colorLight"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

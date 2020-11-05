@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">FUN-UN</string>
+    <string name="userName">username</string>
+    <string name="Password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="Signup">Sign up</string>
+    <string name="Login">Log in</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="Email">Email</string>
+    <string name="email">email</string>
+    <string name="Where">Where:</string>
+    <string name="password">password</string>
+    <string name="Menu">Menu</string>
+    <string name="username">username</string>
+    <string name="settings">Settings</string>
+    <string name="forgotPass">Forgot your password? Click to recover</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="EventName">Event Name:</string>
+    <string name="location">location......</string>
+    <string name="enter_date">Date:</string>
+    <string name="SetTheDate">Set The Date:</string>
+    <string name="EnterTime">Time:</string>
+    <string name="EnterEventName">enter name.....</string>
+    <string name="event_location">Event Location:</string>
+    <string name="SetTime"><![CDATA[Tap & Set Time:]]></string>
+    <string name="press_to_add_new_event">Press Plus Button - Add New Event</string>
+    <string name="NewEvent">New Event</string>
+    <string name="EventPic">Event Pic:</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Save">Save</string>
+    <string name="description">description</string>
+    <string name="NoteTitle">Note Title:</string>
+    <string name="NoteName">Note Name</string>
+    <string name="hi_funun_friend_n_please_choose_event_nor_add_a_new_event_nto_view_event_details">Hi FUNUN Friend!\n Please Choose Event\nOr Add A New Event\nFrom All Events Screen\nTo View Event Details</string>
+    <string name="addHostText">Set Host</string>
+    <string name="saveEventDetails"><![CDATA[Tap & Save\n Event Details]]></string>
+    <string name="saveInCalendar"><![CDATA[Tap & Save Event\nIn Calender]]></string>
+    <string name="tapSetDate"><![CDATA[Tap & Set The Date:]]></string>
+    <string name="tapTwice">tap here twice...</string>
+    <string name="Host">Host In:</string>
+    <string name="Guest">Guest In:</string>
+    <string name="Location">Location</string>
+    <string name="invitebyUsername">" invite by username...."</string>
+    <string name="enterproduct">enter product</string>
+    <string name="enterprice">enter price</string>
+    <string name="enteramount">enter amount</string>
+    <string name="ProductName">Product Name</string>
+    <string name="Price">Price</string>
+    <string name="Units">Units</string>
+
+
+</resources>

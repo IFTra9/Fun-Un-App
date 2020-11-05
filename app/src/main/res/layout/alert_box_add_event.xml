@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/colorPrimary"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/tv_add_event_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:background="#000000"
+
+        android:gravity="center"
+        android:text="FUNUN Event"
+        android:textColor="@color/colorLight"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tv_eventNametitle"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:text="@string/EventName"
+            android:textColor="@color/colorLight"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_eventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight=".2"
+            android:backgroundTint="@color/colorLight"
+            android:gravity="center"
+            android:hint="@string/EnterEventName"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tv_eventLocationtitle"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="4dp"
+            android:layout_weight=".1"
+
+            android:gravity="center"
+            android:text="@string/event_location"
+            android:textColor="@color/colorLight"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_Eventlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight=".2"
+            android:backgroundTint="@color/colorLight"
+
+            android:gravity="center"
+            android:hint="@string/location"
+            android:inputType="textPersonName|text"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tv_ev_setTime"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:layout_weight=".1"
+
+            android:gravity="center"
+            android:text="@string/SetTime"
+            android:textColor="@color/colorLight"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_ev_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight=".2"
+            android:backgroundTint="@color/colorLight"
+            android:editable="false"
+
+            android:gravity="center"
+            android:hint="@string/tapTwice"
+            android:inputType="none"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tv_setTheDate"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:layout_weight=".1"
+
+            android:gravity="center"
+            android:text="@string/tapSetDate"
+            android:textColor="@color/colorLight"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_eventDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight=".2"
+            android:backgroundTint="@color/colorLight"
+            android:editable="false"
+
+            android:gravity="center"
+            android:hint="@string/tapTwice"
+            android:inputType="none"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/iv_pic_change_event_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".1"
+            android:padding="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_user_add_photo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <Button
+            android:id="@+id/btn_add_event_save"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:layout_weight=".1"
+            android:background="#38B47B"
+            android:text="@string/Save"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_add_event_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:layout_weight=".1"
+            android:background="@color/colorGreen"
+            android:text="@string/Cancel"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

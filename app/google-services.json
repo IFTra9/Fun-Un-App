@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "945347986871",
+    "firebase_url": "https://fun-un.firebaseio.com",
+    "project_id": "fun-un",
+    "storage_bucket": "fun-un.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945347986871:android:c8f8a6a2ae50379e2ad432",
+        "android_client_info": {
+          "package_name": "com.example.funun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945347986871-2l2jfd6p0hi9o74u1lci9qffoj5ilt65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTC26Z0BLALGWTpPcxT-Dx3erK9Hd0iv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945347986871-2l2jfd6p0hi9o74u1lci9qffoj5ilt65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
